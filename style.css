@@ -3,9 +3,11 @@
     padding: 0%;
     box-sizing: border-box;
     /* font-family: 'Poppins', sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+
+/* navbar CSS section */
 
 body {
     background: #a67153;
@@ -71,12 +73,13 @@ nav {
     display: none;
 }
 
+
 /*************************************************************************************/
+
 @media (max-width: 952px) {
     .logo {
         font-size: 35px;
     }
-
     .nav_links ul a {
         font-size: 16px;
         padding: 10px;
@@ -87,11 +90,9 @@ nav {
     #bars {
         display: block;
     }
-
-    body {
+    /* body {
         overflow: hidden;
-    }
-
+    } */
     .nav_links {
         position: absolute;
         width: 100%;
@@ -100,26 +101,20 @@ nav {
         top: 90px;
         left: 0%;
         text-align: center;
-
         padding-top: 130px;
-
         display: none;
     }
-
     .nav_links ul a {
         display: block;
     }
-
     .nav_links ul .home {
         font-size: 20px;
         font-weight: normal;
     }
-
     .nav_links ul a {
         font-size: 20px;
         color: #a67153;
     }
-
     .nav_links ul .home,
     .nav_links ul a:hover {
         /* text-decoration: none; */
@@ -128,14 +123,12 @@ nav {
         font-weight: bold;
         text-decoration: underline #eb840e 3px;
     }
-
     .contact_btn {
         color: #eb840e;
         font-size: 20px;
         width: 150px;
         height: 70px;
     }
-
     .active {
         display: block;
     }
@@ -145,25 +138,24 @@ nav {
     .logo {
         font-size: 40px;
     }
-
     .nav_links ul a,
     .nav_links ul .home {
         font-size: 17px;
         padding: 30px;
     }
-
     .nav_links ul .home,
     .nav_links ul a:hover {
         font-size: 17px;
     }
-
     .contact_btn {
         font-size: 19px;
         width: 120px;
         height: 60px;
     }
-
     .nav_links {
         margin-right: 38px;
     }
 }
+
+
+/* navbar CSS section end*/
