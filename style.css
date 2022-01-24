@@ -1,169 +1,169 @@
 * {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
-  background: #a67153;
+    background: #a67153;
 }
 
 nav {
-  width: 100%;
-  padding: 25px;
-  background: #d9af8b;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    width: 100%;
+    padding: 25px;
+    background: #d9af8b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
-  margin-right: auto;
-  font-size: 32px;
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
-  line-height: 40px;
-  padding-left: 25px;
+    margin-right: auto;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    line-height: 40px;
+    padding-left: 25px;
 }
 
 .nav_links ul a {
-  text-decoration: none;
-  color: black;
-  padding: 12px;
-  font-size: 13px;
-  color: #3a2715;
-  transition: 0.3s;
-  line-height: 40px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    font-size: 13px;
+    color: #3a2715;
+    transition: 0.3s;
+    line-height: 40px;
 }
 
 .nav_links ul .home,
 .nav_links ul a:hover {
-  font-size: 15px;
-  text-decoration: underline #eb840e 3px;
-  font-weight: bold;
-  text-underline-position: under;
+    font-size: 15px;
+    text-decoration: underline #eb840e 3px;
+    font-weight: bold;
+    text-underline-position: under;
 }
 
 .contact_btn {
-  height: 50px;
-  width: 100px;
-  background: rgba(0, 0, 0, 0);
-  border: 2px solid #d44949;
-  border-radius: 50px;
-  font-weight: bold;
-  color: #3a2715;
-  transition: 0.3s;
+    height: 50px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #d44949;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #3a2715;
+    transition: 0.3s;
 }
 
 .contact_btn:hover {
-  background: #d44949;
-  color: #d9af8b;
+    background: #d44949;
+    color: #d9af8b;
 }
 
 #bars {
-  font-size: 35px;
-  margin-right: 35px;
-  cursor: pointer;
-  display: none;
+    font-size: 35px;
+    margin-right: 35px;
+    cursor: pointer;
+    display: none;
 }
 
 /*************************************************************************************/
 @media (max-width: 952px) {
-  .logo {
-    font-size: 35px;
-  }
+    .logo {
+        font-size: 35px;
+    }
 
-  .nav_links ul a {
-    font-size: 16px;
-    padding: 10px;
-  }
+    .nav_links ul a {
+        font-size: 16px;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 858px) {
-  #bars {
-    display: block;
-  }
+    #bars {
+        display: block;
+    }
 
-  body {
-    overflow: hidden;
-  }
+    body {
+        overflow: hidden;
+    }
 
-  .nav_links {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background: #3a2715;
-    top: 90px;
-    left: 0%;
-    text-align: center;
+    .nav_links {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #3a2715;
+        top: 90px;
+        left: 0%;
+        text-align: center;
 
-    padding-top: 130px;
+        padding-top: 130px;
 
-    display: none;
-  }
+        display: none;
+    }
 
-  .nav_links ul a {
-    display: block;
-  }
+    .nav_links ul a {
+        display: block;
+    }
 
-  .nav_links ul .home {
-    font-size: 20px;
-    font-weight: normal;
-  }
+    .nav_links ul .home {
+        font-size: 20px;
+        font-weight: normal;
+    }
 
-  .nav_links ul a {
-    font-size: 20px;
-    color: #a67153;
-  }
+    .nav_links ul a {
+        font-size: 20px;
+        color: #a67153;
+    }
 
-  .nav_links ul .home,
-  .nav_links ul a:hover {
-    /* text-decoration: none; */
-    font-size: 20px;
-    color: #d9af8b;
-    font-weight: bold;
-    text-decoration: underline #eb840e 3px;
-  }
+    .nav_links ul .home,
+    .nav_links ul a:hover {
+        /* text-decoration: none; */
+        font-size: 20px;
+        color: #d9af8b;
+        font-weight: bold;
+        text-decoration: underline #eb840e 3px;
+    }
 
-  .contact_btn {
-    color: #eb840e;
-    font-size: 20px;
-    width: 150px;
-    height: 70px;
-  }
+    .contact_btn {
+        color: #eb840e;
+        font-size: 20px;
+        width: 150px;
+        height: 70px;
+    }
 
-  .active {
-    display: block;
-  }
+    .active {
+        display: block;
+    }
 }
 
 @media (min-width: 1495px) {
-  .logo {
-    font-size: 40px;
-  }
+    .logo {
+        font-size: 40px;
+    }
 
-  .nav_links ul a,
-  .nav_links ul .home {
-    font-size: 17px;
-    padding: 30px;
-  }
+    .nav_links ul a,
+    .nav_links ul .home {
+        font-size: 17px;
+        padding: 30px;
+    }
 
-  .nav_links ul .home,
-  .nav_links ul a:hover {
-    font-size: 17px;
-  }
+    .nav_links ul .home,
+    .nav_links ul a:hover {
+        font-size: 17px;
+    }
 
-  .contact_btn {
-    font-size: 19px;
-    width: 120px;
-    height: 60px;
-  }
+    .contact_btn {
+        font-size: 19px;
+        width: 120px;
+        height: 60px;
+    }
 
-  .nav_links {
-    margin-right: 38px;
-  }
+    .nav_links {
+        margin-right: 38px;
+    }
 }
