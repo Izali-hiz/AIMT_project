@@ -14,6 +14,36 @@ body {
     background: #a67153 !important;
 }
 
+.navbar {
+    background-color: #d9af8b !important;
+}
+
+.navbar-collapse ul li a {
+    color: #3a2715;
+    margin-left: 30px;
+}
+
+#archive,
+.navbar-collapse ul li a:hover {
+    text-decoration: underline 3px #d44949;
+    text-underline-position: under;
+}
+
+.btn_contact {
+    height: 50px;
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 2px solid #d44949;
+    text-align: center;
+    background: #d9af8b;
+}
+
+.btn_contact:hover {
+    background: #d44949;
+    color: #d9af8b;
+}
+
 
 /* navbar CSS section end*/
 
