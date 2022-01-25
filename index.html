@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -43,6 +44,7 @@
         </div>
     </nav>
     <!-- Navbar Section end -->
+
 
     <!-- carousel Section -->
     <section>
@@ -88,6 +90,7 @@
         </div>
     </section>
     <!-- carousel Section end-->
+
 
     <!-- product Section -->
     <div class="products p-2 p-lg-4 mt-3">
@@ -148,6 +151,43 @@
     </div>
     <!-- product Section end-->
 
+
+    <!-- content Section -->
+    <div class="contact_con">
+        <h2 class="history_h2">Vintage History</h2>
+        <div class="about_con">
+            <div class="history_about_con">
+                <img src="https://d2ekmjj2tvatj9.cloudfront.net/wp-content/uploads/2018/08/570px-The_Ladybirds_bes%C3%B8ker_Bergen_The_Ladybirds_visits_Bergen_1968.jpg" data-aos="fade-right" data-aos-duration="1000" alt="">
+            </div>
+            <div class="sec_about_con">
+                <p data-aos="fade-left" data-aos-duration="2000">The term "vintage" is used to describe clothing between 20 and 100 years old that is also clearly representative of the era in which it was produced. It could be said that to be called vintage the piece should strongly reflect styles and
+                    trends associated with that era. Vintage clothing can be haute couture or quality mainstream fashion labels; it can be used, new (from deadstock), manufactured, or handmade. It is important to understand that the definition of vintage
+                    is fluid, so every decade brings forth new items that fit into this category. It is also important to understand that all vintage will eventually become antique — clothing 100 years old or more is classified as antique.</p>
+
+                <button id="more_bu">View More</button>
+            </div>
+        </div>
+
+        <!-- VINTAGE CLOTHING SECTION -->
+
+        <h2 class="clothing_h2">Vintage Clothing</h2>
+        <div class="clothing_about_con">
+            <div class="sec_history_about_con">
+                <img src="https://www.nokillmag.com/wp-content/uploads/2021/01/dior-PM.jpg" data-aos="fade-left" data-aos-duration="1000" alt="">
+            </div>
+            <div class="clothing_con">
+                <p data-aos="fade-right" data-aos-duration="2000">
+
+                    “Vintage clothes” are generally an umbrella name for garments that came from the previous era. Clothing, for example, that were produced prior to the 1920s were usually considered antique clothes because they are too old to be worn by someone. However,
+                    clothes that were manufactured from the 1920s up to 1998 are considered vintage. They are also referred to as “retro.” Hence, if you are buying a dress whose style belongs to the said era, then you are really buying a retro dress.</p>
+
+                <button id="sec_more_bu">View More</button>
+            </div>
+        </div>
+    </div>
+    <!-- content Section end-->
+
+
     <!-- service offer Sectoin -->
     <div class="cards">
         <h2 class="header">
@@ -188,6 +228,7 @@
     </div>
     <!-- service offer Sectoin end-->
 
+
     <!-- toggle script -->
     <script>
         const bars = document.querySelector("#bars");
@@ -202,6 +243,15 @@
         };
     </script>
     <!-- toggle script end-->
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS end -->
+
 
     <!-- bootstrap Js link -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
