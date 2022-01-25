@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* navbar CSS section */
+
+body {
+    background: #a67153 !important;
+}
+
+.navbar {
+    background-color: #d9af8b !important;
+}
+
+.navbar-collapse ul li a {
+    color: #3a2715;
+    margin-left: 30px;
+}
+
+#archive,
+.navbar-collapse ul li a:hover {
+    text-decoration: underline 3px #d44949;
+    text-underline-position: under;
+}
+
+.btn_contact {
+    height: 50px;
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 2px solid #d44949;
+    text-align: center;
+    background: #d9af8b;
+}
+
+.btn_contact:hover {
+    background: #d44949;
+    color: #d9af8b;
+}
+
+
+/* navbar CSS section end*/
+
+
+/* carousel CSS section */
+
+section {
+    display: block;
+    
+    
+}
+
+.carousel-item>img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption,
+h3 {
+    font-size: 30px;
+}
+
+.carousel-caption,
+p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.carousel-caption {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 17%;
+    backdrop-filter: blur(4px);
+}
+
+.carousel-caption,
+a {
+    padding: 0 10px;
+}
+
+.bgg {
+    background-color: #d9af8b !important;
+}
+
+@media (max-width:800px) {
+    .carousel-caption,
+    h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:777px) {
+    .carousel-caption>img {
+        width: 500px;
+        height: 800px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel-caption,
+    h3 {
+        font-size: 14px;
+    }
+    .carousel-caption {
+        padding: 25px;
+        margin-bottom: 40%;
+    }
+    .pp {
+        font-size: 12px;
+    }
+    .cc-g {
+        margin-bottom: 60%;
+    }
+}
+
+@media (max-width:500px) {
+    .cc-g {
+        margin-bottom: 60%;
+    }
+}
+
+@media (min-width:1200px) {
+    .cc {
+        width: 700px;
+    }
+}
+
+
+/* carousel CSS section end*/
+
+
+/* service offer section  */
+
+.cards {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.cards h2.header {
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.content .fab {
+    font-size: 60px;
+    margin: 16px 0;
+}
+
+.content>* {
+    flex: 1 1 100%;
+}
+
+.content:hover {
+    color: rgb(0, 0, 0);
+}
+
+.content:hover a {
+    border-color: #b1551f;
+    background: #b1551f;
+}
+
+.content-1:hover {
+    border-color: #D9AF8B;
+    background: #D9AF8B;
+}
+
+.content-1:hover a {
+    color: #000000;
+}
+
+.content-2:hover {
+    border-color: #D9AF8B;
+    background: #D9AF8B;
+}
+
+.content-2:hover a {
+    color: #000000;
+}
+
+.content-3:hover {
+    border-color: #D9AF8B;
+    background: #D9AF8B;
+}
+
+.content-3:hover a {
+    color: #000000;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content a {
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+}
+
+.content a:hover {
+    border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* service offer section end */
