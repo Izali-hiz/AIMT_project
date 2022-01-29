@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap");
+;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -477,3 +479,235 @@ section {
 
 
 /* service offer  CSS section end */
+
+
+/* footer CSS section */
+
+hr {
+    display: none;
+}
+
+.footer {
+    height: 480px;
+    background: #b1551f;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 400px;
+}
+
+#footer-logo {
+    font-size: 3rem;
+    padding-top: 30px !important;
+}
+
+.about p {
+    padding-top: 20px !important;
+    padding: 0;
+    margin: 0;
+}
+
+.about a {
+    padding: 0;
+    margin: 0;
+    font-size: 29px;
+    width: 50px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.about a:hover {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contact {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.sections div {
+    padding: 20px;
+    width: 280px;
+    padding-top: 0;
+    justify-content: space-around;
+}
+
+.sections div hr {
+    border: 1px solid rgba(0, 0, 0, 0.452);
+}
+
+.sections div h2 {
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.sections div a {
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    display: block;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sections div a:hover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        height: auto;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #footer-logo {
+        text-align: center;
+        align-items: center;
+        color: black;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        display: block;
+    }
+    .about {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 350px;
+        width: 100%;
+        display: block;
+    }
+    .about div {
+        text-align: center;
+        align-items: center;
+    }
+    .about .menu {
+        width: 100%;
+        display: inline;
+    }
+    .about a {
+        margin: 10px;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #000;
+        transition: 0.25s;
+        font-weight: bold;
+    }
+    .about a:hover {
+        font-size: 26px;
+    }
+    #contact {
+        font-size: 28px;
+    }
+    .sections {
+        justify-content: center;
+        width: 300px !important;
+        margin-inline: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .sections div {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        padding: auto;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+    }
+    .sections div h2 {
+        font-size: 35px !important;
+        color: #000;
+    }
+    .sections div hr {
+        display: block;
+    }
+    .sections div a {
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sections div a:hover {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1350px) {
+    .footer {
+        height: auto;
+    }
+    #footer-logo {
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+    .about {
+        height: 300px;
+        margin: auto;
+        width: 800px;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .sections {
+        padding: 0;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .sections div h2 {
+        font-size: 2rem !important;
+        font-weight: bold !important;
+    }
+    .sections div a {
+        margin-top: 1rem;
+        display: block;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    .sections div a:hover {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .sections div {
+        width: 320px;
+        padding: 0;
+        margin-inline: auto;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+/* footer CSS section end */
